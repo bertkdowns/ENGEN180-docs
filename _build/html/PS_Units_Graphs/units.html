@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Unit Conversions &#8212; ENGEN180 0.1.0 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Graphs" href="graphs.html" />
+    <link rel="prev" title="K-T Analysis tables" href="kttables.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="unit-conversions">
+<h1>Unit Conversions<a class="headerlink" href="#unit-conversions" title="Permalink to this headline">¶</a></h1>
+<p>Stuff has units, like
+<span class="math notranslate nohighlight">\(12 kg/m\)</span>
+. To convert units you need some kind of unit conversion table with stuff like:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>1 m = 3.28 ft</p></li>
+<li><p>1 kg = 2.2 lb</p></li>
+</ul>
+</div></blockquote>
+<p>You can write these as fractions:</p>
+<p><span class="math notranslate nohighlight">\(\frac{1m}{3.28ft}\)</span> or <span class="math notranslate nohighlight">\(\frac{3.28ft}{1m}\)</span></p>
+<p>Since 1m = 1 ft, multiplying by this fraction is the same as multiplying by 1. it changes the number, but it also changes the unit too, converting between units. Now you can do this:</p>
+<p><span class="math notranslate nohighlight">\(\frac{12kg}{m} * \frac{1m}{3.28ft} * \frac{2.2lb}{1kg}\)</span></p>
+<p>Notice the two <em>m</em> units cancel out, and the two <em>kg</em> units cancel out, because one is on the top and one is on the bottom. You’re left with the units of lb/ft.
+Then you just work out the numbers and bam, converted units!</p>
+<p><span class="math notranslate nohighlight">\(\frac{12kg}{m} * \frac{1m}{3.28ft} * \frac{2.2lb}{1kg} = \frac{12 * 2.2 lb}{3.28ft} = 8.0 lb/ft\)</span></p>
+<p>Temperature is weird, because it is either relative (a change in temperature) or absolute. For absolute temperature use a formula like this:</p>
+<p><span class="math notranslate nohighlight">\(^{\circ} C = (^{\circ} F -32)/1.8\)</span></p>
+<p>For relative temperature you can ignore the + or minus bit (but keep the division), or use the temperature interval conversions often written like:</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(\frac{1.8F^{\circ}}{C^{\circ}}\)</span></p>
+<p>You can flip these around to get the appropriate fraction for your conversion of course.</p>
+<p>Rankine is to Fahrenheit as Kelvin is to Celsius - temperature differences are the same, but one starts at absolute zero the other doesnt.</p>
+</div></blockquote>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">ENGEN180</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Intro/intro.html">Engineering Basics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Design/index.html">Designing things</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Problem Solving, Units, and Graphs</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="problemsolving.html">Problem solving</a></li>
+<li class="toctree-l2"><a class="reference internal" href="estimation.html">Estimation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="kttables.html">K-T Analysis tables</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Unit Conversions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="graphs.html">Graphs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Sustainability/sustainability.html">Sustainability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Systems.html">Systems</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Problem Solving, Units, and Graphs</a><ul>
+      <li>Previous: <a href="kttables.html" title="previous chapter">K-T Analysis tables</a></li>
+      <li>Next: <a href="graphs.html" title="next chapter">Graphs</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Bert.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/PS_Units_Graphs/units.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

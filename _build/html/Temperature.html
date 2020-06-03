@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Temperature &#8212; ENGEN180 0.1.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Chemistry" href="Chemistry.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="temperature">
+<h1>Temperature<a class="headerlink" href="#temperature" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="r-value">
+<h2>R value<a class="headerlink" href="#r-value" title="Permalink to this headline">¶</a></h2>
+<p>The R value, ( <span class="math notranslate nohighlight">\(R\)</span> ) represents the “thermal resistance” per unit area. It’s additive, so if you have  2 layers of insulation, you can add their R values to get the overall R value.</p>
+</div>
+<div class="section" id="heat-transfer-coefficient">
+<h2>Heat Transfer Coefficient<a class="headerlink" href="#heat-transfer-coefficient" title="Permalink to this headline">¶</a></h2>
+<p>The inverse of the R value (<span class="math notranslate nohighlight">\(1/R\)</span>).  Represented as a lowercase <span class="math notranslate nohighlight">\(h\)</span>. Units are <span class="math notranslate nohighlight">\(\frac{W}{m^2{\cdot}K^{\circ}}\)</span></p>
+</div>
+<div class="section" id="thermal-conductivity">
+<h2>Thermal Conductivity<a class="headerlink" href="#thermal-conductivity" title="Permalink to this headline">¶</a></h2>
+<p>A measure of a material’s ability to conduct heat. Represented as the letter <span class="math notranslate nohighlight">\(k\)</span>.</p>
+<p>It is related to thermal resistance by the equation <span class="math notranslate nohighlight">\(R=L/k\)</span>, where L is the length (thickness) of the material.</p>
+</div>
+<div class="section" id="heat-transfer">
+<h2>Heat Transfer<a class="headerlink" href="#heat-transfer" title="Permalink to this headline">¶</a></h2>
+<p>The rate of heat transfer can be measured in Watts (Joules per second).</p>
+<p>The rate of heat transfer from one place to another by conduction through a material is:</p>
+<p><span class="math notranslate nohighlight">\(q=hA(T_S - T_F)\)</span> where:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>h is the heat transfer coefficient</p></li>
+<li><p>A is the area between the two places where heat transfer is taking place</p></li>
+<li><p><span class="math notranslate nohighlight">\(T_S\)</span> and <span class="math notranslate nohighlight">\(T_F\)</span> are the temperatures (in celcius or kelvin) of the two places.</p></li>
+</ul>
+</div></blockquote>
+<p>Or:</p>
+<p><span class="math notranslate nohighlight">\(q=\frac{kA(T_1 - T_2)}{L}\)</span> where:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>k is the thermal conductivity</p></li>
+<li><p>L is the length (thickness) of the thing seperating the two areas.</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="heat-transfer-through-radiation">
+<h2>Heat Transfer through Radiation<a class="headerlink" href="#heat-transfer-through-radiation" title="Permalink to this headline">¶</a></h2>
+<p><span class="math notranslate nohighlight">\(q=\epsilon \sigma A T_s^4\)</span> where:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\epsilon\)</span> is the surface emissitivity (0 &lt; <span class="math notranslate nohighlight">\(\epsilon\)</span> &lt; 1, 1 being black, shinier as approaching 0)</p></li>
+<li><p><span class="math notranslate nohighlight">\(\sigma\)</span> is the Stefan-Botzmann constant (<span class="math notranslate nohighlight">\(5.67 \times 10^{-8} W/m^2K^4\)</span>)</p></li>
+<li><p><span class="math notranslate nohighlight">\(A\)</span> is the cross sectional area</p></li>
+<li><p><span class="math notranslate nohighlight">\(T_s\)</span> is the surface temprature of the solid</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="ideal-gas-law">
+<h2>Ideal Gas Law<a class="headerlink" href="#ideal-gas-law" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt><span class="math notranslate nohighlight">\(PV = nR_uT\)</span> where:</dt><dd><ul class="simple">
+<li><p>P is pressure (Pa)</p></li>
+<li><p>V is volume (cubic metres)</p></li>
+<li><p>T is Temperature (Kelvin)</p></li>
+<li><p>n is the amount of “ideal” gas (mols)</p></li>
+<li><p><span class="math notranslate nohighlight">\(R_u\)</span> is the ideal gas constant (8.314 Pa/mol K)</p></li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">ENGEN180</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Intro/intro.html">Engineering Basics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Design/index.html">Designing things</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PS_Units_Graphs/index.html">Problem Solving, Units, and Graphs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Sustainability/sustainability.html">Sustainability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Systems.html">Systems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Chemistry.html">Chemistry</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Temperature</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#r-value">R value</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#heat-transfer-coefficient">Heat Transfer Coefficient</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#thermal-conductivity">Thermal Conductivity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#heat-transfer">Heat Transfer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#heat-transfer-through-radiation">Heat Transfer through Radiation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ideal-gas-law">Ideal Gas Law</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="Chemistry.html" title="previous chapter">Chemistry</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Bert.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/Temperature.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

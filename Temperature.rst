@@ -4,7 +4,7 @@ Temperature
 R value
 -------
 
-The R value, ( :math:`R` ) represents the "thermal resistance" per unit area. It's additive, so if you have  2 layers of insulation, you can add their R values to get the overall R value.
+The R value, ( :math:`R` ) represents the "thermal resistance" per unit area. It's additive, so if you have  2 layers of insulation, you can add their R values to get the overall R value. Units are :math:`\frac{m^2{\cdot}K^{\circ}}{}`
 
 Heat Transfer Coefficient
 -------------------------
@@ -14,7 +14,7 @@ The inverse of the R value (:math:`1/R`).  Represented as a lowercase :math:`h`.
 Thermal Conductivity
 --------------------
 
-A measure of a material's ability to conduct heat. Represented as the letter :math:`k`.
+A measure of a material's ability to conduct heat. Represented as the letter :math:`k`. Units are :math:`\frac{W}{m{\cdot}K^{\circ}}`
 
 It is related to thermal resistance by the equation :math:`R=L/k`, where L is the length (thickness) of the material.
 
@@ -23,7 +23,7 @@ Heat Transfer
 
 The rate of heat transfer can be measured in Watts (Joules per second).
 
-The rate of heat transfer from one place to another by conduction through a material is:
+The rate of heat transfer from one place to another by convection through a material is:
 
 :math:`q=hA(T_S - T_F)` where:
 
@@ -56,7 +56,7 @@ Ideal Gas Law
 	- V is volume (cubic metres)
 	- T is Temperature (Kelvin)
 	- n is the amount of "ideal" gas (mols)
-	- :math:`R_u` is the ideal gas constant (8.314 Pa/mol K)
+	- :math:`R_u` is the ideal gas constant (8.314 J/mol K)
 
 
 
